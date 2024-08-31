@@ -1,0 +1,110 @@
+body {
+  background: no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+  background-color: black;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  font-family: "Roboto Condensed", sans-serif;
+  font-optical-sizing: auto;
+  text-shadow: 0px 0px 20px #aaaaaa;
+}
+
+header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main {
+  margin: 0 auto;
+  width: 300px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+main div:first-child h1 {
+  font-size: 100px;
+  text-shadow: 2px 2px 2px #474747;
+}
+
+main div:first-child h2 {
+  font-size: 30px;
+}
+
+main, .crypto, .weather, .weather-container p {
+  color: white;
+}
+
+.weather-container {
+  display: flex;
+  flex-direction: row;
+  gap: 4px;
+  width: fit;
+}
+
+.weather-container p {
+  font-size: 25px;
+}
+
+.weather-container img {
+  width: 70px;
+  height: 70px;
+}
+
+.temp-and-location p:nth-child(2) {
+  font-size: 14px;
+  text-align: end;
+  text-transform: uppercase;
+}
+
+.temp-and-location p:nth-child(1) {
+  margin-bottom: -10px;
+}
+
+.crypto-container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sub-container .market-rank {
+  color: white;
+  font-size: 14px;
+}
+
+.bottom-qoute {
+  font-size: 20px;
+  border-bottom: 1px solid white;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 10;
+  width: 100%;
+}
+
+.author {
+  margin-left: 10px;
+  font-size: 12px;
+  background-color: whitesmoke;
+  color: black;
+  width: fit-content;
+  opacity: 0.6;
+  padding: 5px;
+}
